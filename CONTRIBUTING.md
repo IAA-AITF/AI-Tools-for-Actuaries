@@ -27,9 +27,8 @@ You can contribute in several ways:
 - **Fork & Clone:** Fork this repository and clone it to your local machine.
 - **Create a Branch:** Create a new branch for your contribution. Use a descriptive name like `feature/new-tutorial` or `update/templates`.
 - **Add Your Contribution:**
-  - Place tutorials and guides in the `guides/` folder.
+  - Place tutorials and guides in the `tutorials-and-guides/` folder.
   - Place new templates or updates to templates in the `templates/` folder.
-  - Add curated external resources to the `resources/` folder.
 
 - **Testing Your Contribution:**  
   Review your additions locally to ensure they display correctly and follow the structure and style guidelines.
