@@ -1,63 +1,55 @@
 # Contributing to AI Tools for Actuaries
 
-Thank you for your interest in contributing to the **AI Tools for Actuaries** repository! We are excited to collaborate with actuaries, data scientists, and AI practitioners to build a comprehensive hub for practical AI applications in actuarial work.
+Thank you for your interest in contributing! We welcome submissions from actuaries, data scientists, and AI practitioners to build a comprehensive resource hub for AI applications in actuarial work.
 
-## How to Contribute
+---
 
-### 1. Familiarize Yourself with the Repository
+## Contribution Workflow at a Glance
 
-- **Review the README:** Understand the purpose and structure of this repository.
-- **Explore the Templates:** Check the [templates](./templates/) folder for examples and formatting guidelines to ensure your submission is consistent with existing materials.
+1. Review the [templates](./templates/) and existing tutorials for structure and style
+2. Fork the repository and create a descriptive branch (e.g., `feature/new-tutorial`)
+3. Add your content to the appropriate folder
+4. Submit a pull request with a clear description
+5. A maintainer reviews and merges your contribution
 
-### 2. Choose Your Contribution
+---
 
-You can contribute in several ways:
+## What You Can Contribute
 
-- **Tutorials and Guides:**  
-  Submit practical guides on how to use specific AI tools (e.g., GPT-4, RPA bots, data visualization tools) in actuarial contexts.
+- **Tutorials and Guides** — Practical walkthroughs on using AI tools (e.g., LLM APIs, coding assistants, data analysis tools) in actuarial contexts.
+- **Templates** — Improvements or new templates to better structure future contributions.
+- **Resources** — Curated external resources such as articles, papers, or training programs relevant to actuaries using AI.
 
-- **Templates:**  
-  Suggest improvements to existing templates or propose new templates to better structure future contributions.
+---
 
-- **Resources:**  
-  Curate and share external resources like articles, papers, or training programs relevant to actuaries using AI.
+## Making a Submission
 
-### 3. Making a Submission
+1. **Fork & Clone** this repository to your local machine.
+2. **Create a branch** with a descriptive name (e.g., `feature/new-tutorial` or `update/templates`).
+3. **Add your content:**
+   - Tutorials and guides go in the `tutorials-and-guides/` folder.
+   - Templates go in the `templates/` folder.
+4. **Review locally** to ensure content displays correctly and follows style guidelines.
+5. **Submit a pull request** — clearly summarize your contribution and reference any related issues.
 
-- **Fork & Clone:** Fork this repository and clone it to your local machine.
-- **Create a Branch:** Create a new branch for your contribution. Use a descriptive name like `feature/new-tutorial` or `update/templates`.
-- **Add Your Contribution:**
-  - Place tutorials and guides in the `tutorials-and-guides/` folder.
-  - Place new templates or updates to templates in the `templates/` folder.
-
-- **Testing Your Contribution:**  
-  Review your additions locally to ensure they display correctly and follow the structure and style guidelines.
-
-### 4. Submitting a Pull Request
-
-- **Describe Your Changes:** Clearly summarize what you are contributing in the pull request description.
-- **Reference Issues:** If your contribution addresses an open issue, please reference it.
-- **Review Process:**  
-  A maintainer will review your submission and may request changes to ensure quality and consistency.
+---
 
 ## Guidelines for Submissions
 
-- **Clarity & Practicality:** Ensure that your guides are clear, actionable, and oriented toward practical use cases for actuaries.
-- **Attribution:** If you use content from third-party sources, ensure it is properly attributed and respect licensing conditions.
-- **Formatting:** Follow Markdown conventions and structure your submission based on the templates provided.
-- **Licensing:**  
-  By contributing, you agree that your submissions will be made available under the repository’s license terms: 
-  - Creative Commons Attribution 4.0 (for textual resources)
-  - MIT License (for code or scripts)
+- **Clarity & Practicality** — Guides should be clear, actionable, and oriented toward practical actuarial use cases.
+- **Attribution** — Properly attribute third-party content and respect licensing conditions.
+- **Formatting** — Follow Markdown conventions and structure submissions based on the provided [templates](./templates/).
+- **Licensing** — By contributing, you agree that your submissions will be available under:
+  - [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) for textual content
+  - [MIT License](./LICENSE) for code and scripts
+
+---
 
 ## Need Help?
 
-If you have questions, feel free to:
-
-- **Open an Issue:** Use GitHub’s issue tracker.
-- **Contact Us:** Reach out directly via [email](mailto:simon.hatzesberger@gmail.com).
-
-Thank you for contributing to **AI Tools for Actuaries** and helping the actuarial community thrive in the age of AI!
+- [Open an issue](https://github.com/IAA-AITF/AI-Tools-for-Actuaries/issues) on the GitHub issue tracker
+- [Contact us via email](mailto:simon.hatzesberger@gmail.com)
 
 ---
-*This document may be updated as needed. Please check back periodically for the latest contribution guidelines.*
+
+*This document may be updated. Please check back before each submission.*

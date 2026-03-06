@@ -1,29 +1,53 @@
 # AI Tools for Actuaries
 
-Welcome to the **AI Tools for Actuaries** repository, created as part of the International Actuarial Association's (IAA) Task Force on Artificial Intelligence. This repository supports the Task Force’s objective to provide actuaries with tutorials and guides on using AI-powered tools to improve the efficiency, effectiveness, and quality of actuarial work.
+[![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-## 🎯 Purpose
+A resource hub of tutorials and guides for actuaries, created by the [International Actuarial Association's (IAA)](https://www.actuaries.org) AI Task Force. This repository helps actuaries move beyond basic AI interfaces and start building programmatic, production-ready solutions with AI-powered tools.
 
-The goal of this repository is to equip actuaries with practical knowledge about AI tools—ranging from machine learning platforms to generative AI assistants and automation solutions—that can enhance actuarial practice. By introducing and guiding the use of these tools, we aim to support actuaries in efficiently adopting AI-driven technologies in their daily workflows and decision-making processes.
+---
 
-## 📁 Repository Structure
+## Available Tutorials
 
-- **tutorials-and-guides/**  
-  In-depth tutorials, walkthroughs, and best practices for using AI tools in actuarial work.
+| Tutorial | Description | Level |
+|:---------|:------------|:-----:|
+| [GenAI Beyond the Basics](tutorials-and-guides/GenAI_Beyond_the_Basics/) | Advanced GenAI concepts for actuaries — API integration, Structured Outputs, Function Calling, Fine-Tuning, and RAG, with hands-on actuarial examples. | Advanced |
 
-- **templates/**  
-  Templates to help contributors structure new tutorials and guides consistently and efficiently.
+---
 
-## 🤝 Contributing
+## Repository Structure
 
-We welcome contributions from actuaries, data scientists, and AI practitioners. Please review the [CONTRIBUTING.md](CONTRIBUTING.md) file for details on how to submit your tools, tutorials, and guides. Alternatively, you can also [contact us via email](mailto:simon.hatzesberger@gmail.com) for any questions or suggestions.
+```
+AI-Tools-for-Actuaries/
+├── tutorials-and-guides/  # In-depth tutorials and walkthroughs
+├── templates/             # Templates for new tutorial submissions
+├── CONTRIBUTING.md        # Contribution guidelines
+└── LICENSE                # MIT (code) + CC BY 4.0 (content)
+```
 
-## ⚖️ License
+---
 
-This repository contains both original content and references to third-party materials.
+## Getting Started
 
-- Textual materials (such as case studies, articles, and documentation) developed by the IAA Task Force on Artificial Intelligence are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-- Software and code (including scripts and Jupyter notebooks) developed within this repository are licensed under the [MIT License](LICENSE).
-- Third-party materials are distributed under their respective licenses, as indicated.
+Each tutorial or guide is self-contained in its own directory with a `README.md` that describes its content, prerequisites, and how to get started. Formats vary — you will find Jupyter notebooks, video walkthroughs, step-by-step written guides, and more. Refer to each tutorial's `README.md` for specific instructions.
 
-For questions or suggestions, feel free to open an issue or [contact us via email](mailto:simon.hatzesberger@gmail.com).
+---
+
+## Contributing
+
+We welcome contributions from actuaries, data scientists, and AI practitioners. Please review the [CONTRIBUTING.md](CONTRIBUTING.md) for submission guidelines, or use one of the provided [templates](templates/) to get started.
+
+---
+
+## License
+
+- **Content** (tutorials, articles, documentation): [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- **Code** (scripts, Jupyter notebooks): [MIT License](LICENSE)
+- **Third-party materials**: Distributed under their respective licenses, as indicated.
+
+---
+
+## Contact
+
+For questions or suggestions, [open an issue](https://github.com/IAA-AITF/AI-Tools-for-Actuaries/issues) or [contact us via email](mailto:simon.hatzesberger@gmail.com).
