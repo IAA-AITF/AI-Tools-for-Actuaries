@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-03-24T07:58:09.998682+00:00",
+  "test_file": "data\\input\\ait170-ai-bulletin-january-2026_1.pdf",
+  "file_size_bytes": 717988,
+  "results": [
+    {
+      "engine_name": "local",
+      "model": "local-text-wrapper",
+      "success": true,
+      "conversion_time": 3.400667699985206,
+      "markdown_length": 115965,
+      "num_assets": 0,
+      "error_message": null,
+      "markdown_path": "outputs\\local\\output.md",
+      "asset_dir": null
+    },
+    {
+      "engine_name": "markitdown",
+      "model": "markitdown",
+      "success": true,
+      "conversion_time": 20.43880879995413,
+      "markdown_length": 113587,
+      "num_assets": 0,
+      "error_message": null,
+      "markdown_path": "outputs\\markitdown\\output.md",
+      "asset_dir": null
+    },
+    {
+      "engine_name": "paddleocr",
+      "model": "paddleocr-en",
+      "success": true,
+      "conversion_time": 179.19785080000293,
+      "markdown_length": 1385,
+      "num_assets": 0,
+      "error_message": null,
+      "markdown_path": "outputs\\paddleocr\\output.md",
+      "asset_dir": null
+    },
+    {
+      "engine_name": "docling",
+      "model": "docling",
+      "success": true,
+      "conversion_time": 276.35032700002193,
+      "markdown_length": 114482,
+      "num_assets": 0,
+      "error_message": null,
+      "markdown_path": "outputs\\docling\\output.md",
+      "asset_dir": null
+    },
+    {
+      "engine_name": "marker",
+      "model": "marker",
+      "success": true,
+      "conversion_time": 5990.151946400059,
+      "markdown_length": 124355,
+      "num_assets": 59,
+      "error_message": null,
+      "markdown_path": "outputs\\marker\\output.md",
+      "asset_dir": "outputs\\marker\\assets"
+    },
+    {
+      "engine_name": "mineru",
+      "model": "pipeline:auto",
+      "success": true,
+      "conversion_time": 1935.6683323000325,
+      "markdown_length": 103466,
+      "num_assets": 11,
+      "error_message": null,
+      "markdown_path": "outputs\\mineru\\output.md",
+      "asset_dir": "outputs\\mineru\\assets"
+    },
+    {
+      "engine_name": "mistral",
+      "model": "mistral-ocr-latest",
+      "success": true,
+      "conversion_time": 29.18882069992833,
+      "markdown_length": 110549,
+      "num_assets": 14,
+      "error_message": null,
+      "markdown_path": "outputs\\mistral\\output.md",
+      "asset_dir": "outputs\\mistral\\assets"
+    },
+    {
+      "engine_name": "opendataloader",
+      "model": "opendataloader",
+      "success": true,
+      "conversion_time": 21.193668499938212,
+      "markdown_length": 112618,
+      "num_assets": 60,
+      "error_message": null,
+      "markdown_path": "outputs\\opendataloader\\output.md",
+      "asset_dir": "outputs\\opendataloader\\assets"
+    }
+  ]
+}

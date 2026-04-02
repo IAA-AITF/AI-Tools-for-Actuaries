@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doc-to-markdown-converter"
+version = "0.1.1"
+description = "Modular CLI for converting documentation to Markdown using multiple engines"
+authors = [{name = "Ferry He", email = "ferry.he@gmail.com"}]
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+keywords = ["markdown", "ocr", "pdf", "document-conversion", "llm"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Markup",
+]
+dependencies = [
+    "typer==0.12.5",
+    "rich==13.7.1",
+    "pydantic==2.12.4",
+    "pydantic-settings==2.7.0",
+    "python-dotenv==1.0.1",
+    "requests==2.32.3",
+    "click==8.1.7",
+    "pypdf==5.0.1",
+    "mistralai==1.9.11",
+    "openai==1.109.1",
+    "python-docx==1.1.2",
+    "pillow==10.4.0",
+    "pytesseract==0.3.13",
+    "tiktoken==0.7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ferryhe/doc_to_md"
+Repository = "https://github.com/ferryhe/doc_to_md"
+Issues = "https://github.com/ferryhe/doc_to_md/issues"
+
+[project.scripts]
+doc-to-md = "doc_to_md.cli:app"
+doc-to-md-api = "doc_to_md.api:run"
+
+[project.optional-dependencies]
+api = ["fastapi>=0.115,<1", "uvicorn>=0.34,<1"]
+html = ["trafilatura>=1.6,<2", "beautifulsoup4>=4.12,<5"]
+office = ["python-pptx>=0.6,<2", "openpyxl>=3.1,<4"]
+markitdown = ["markitdown[pdf]>=0.1.3"]
+paddleocr = ["paddleocr>=3.3.1", "pypdfium2>=4.30.0"]
+mineru = ["mineru>=2.6.4"]
+docling = ["docling>=2.61.1"]
+marker = ["marker-pdf>=1.10.1"]
+opendataloader = ["opendataloader-pdf>=2.0.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["doc_to_md*"]
+
+[tool.setuptools.package-data]
+doc_to_md = ["py.typed"]
