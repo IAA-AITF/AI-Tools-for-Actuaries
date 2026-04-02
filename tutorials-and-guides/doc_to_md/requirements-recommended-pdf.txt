@@ -1,0 +1,25 @@
+# ============================================================
+# requirements-recommended-pdf.txt
+#
+# Current recommended PDF environment for this repository.
+#
+# Keeps the engines we currently recommend:
+#   - local
+#   - markitdown
+#   - opendataloader
+#   - docling
+#   - mistral
+#
+# Notes:
+#   - local and mistral come from the base package
+#   - mistral still needs MISTRAL_API_KEY
+#   - opendataloader still needs Java 11+ on the system
+#
+# Install:
+#   pip install -r requirements-recommended-pdf.txt
+#
+# Equivalent direct command:
+#   pip install -e ".[markitdown,docling,opendataloader]"
+# ============================================================
+
+-e .[markitdown,docling,opendataloader]

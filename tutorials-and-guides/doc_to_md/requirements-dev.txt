@@ -1,0 +1,36 @@
+# ============================================================
+# requirements-dev.txt
+#
+# Development and test overlay for this repository.
+#
+# Use this AFTER installing one runtime environment, for example:
+#   pip install -r requirements-recommended-pdf.txt
+# or
+#   pip install -r requirements-core.txt
+# or
+#   pip install -r requirements.txt
+#
+# Then install this file:
+#   pip install -r requirements-dev.txt
+#
+# What this adds:
+#   - pytest / pytest-cov for local test runs
+#   - fastapi so tests/test_api.py does not get skipped
+#   - uvicorn for local API smoke tests
+#   - ruff, build, twine for release checks
+#
+# This file is intentionally not a runtime profile.
+# ============================================================
+
+# Testing
+pytest>=9.0.0
+pytest-cov>=7.0.0
+
+# API test dependency
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+
+# Quality and release checks
+ruff>=0.15.0
+build>=1.0.0
+twine>=6.0.0
